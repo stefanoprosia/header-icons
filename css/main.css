@@ -1,0 +1,47 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  background-color: #d05c2e;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  font-family: "Merriweather", sans-serif;
+}
+
+ul {
+  color: #fff;
+  text-align: center;
+  background: #d05c2e;
+  border-style: solid;
+  border-color: #a63f38;
+  text-decoration: none;
+  font-family: "Merriweather", sans-serif;
+}
+
+img {
+  background-color: #d05c2e;
+}
+
+nav {
+  text-decoration: none;
+}
+
+li {
+  text-decoration: none;
+}
+
+.right {
+  float: right;
+  width: 5%;
+}
+
+.left {
+  float: left;
+  width: 5%;
+}
