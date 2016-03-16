@@ -4,44 +4,86 @@ html {
 
 body {
   margin: 0;
+  padding: 0;
+  font-family: "Merriweather", sans-serif;
+  text-decoration: none;
+}
+
+header {
+  background-color: #d05c2e;
+  color: #fff;
 }
 
 h1 {
-  background-color: #d05c2e;
+  margin: 0;
   text-align: center;
-  color: #fff;
-  width: 100%;
   font-family: "Merriweather", sans-serif;
-}
-
-ul {
-  color: #fff;
-  text-align: center;
-  background: #d05c2e;
-  border-style: solid;
-  border-color: #a63f38;
-  text-decoration: none;
-  font-family: "Merriweather", sans-serif;
-}
-
-img {
-  background-color: #d05c2e;
+  font-size: 2rem;
 }
 
 nav {
   text-decoration: none;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-size: 1.125rem;
+}
+
+ul {
+  text-decoration: none;
+  overflow: hidden;
+  list-style-type: none;
+  padding: 0;
+  border-top: 1px solid #a63f38;
+  border-bottom: 1px solid #a63f38;
+}
+
+img {
+  width: 50px;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+a,
+nav a {
+  text-decoration: none;
+  padding: 0.4em 0 0.5em;
+  display: block;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.2rem;
 }
 
 li {
   text-decoration: none;
+  font-size: 1.125rem;
+  float: left;
+  width: 33.3%;
+  padding: .5em;
+  text-align: center;
+}
+
+.cereals {
+  border-left: 1px solid #a63f38;
+  border-bottom: 1px solid #a63f38;
 }
 
 .right {
   float: right;
-  width: 5%;
 }
 
 .left {
   float: left;
-  width: 5%;
+}
+
+a {
+  float: left;
+  float: right;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
